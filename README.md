@@ -10,7 +10,7 @@ Tiny command line utility that gives reasonable formatting for brainfuck files.
 
 Converts:
 
-    [-]++++++++[>+++>++>++++>+++++<<<<-]
+    [-]+++++++hello there!+[>+++>++>++++>+++++<<<<-]
 
 To:
 
