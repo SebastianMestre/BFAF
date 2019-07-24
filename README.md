@@ -53,10 +53,6 @@ g++ src/main.cpp -o bin/bfaf
 
 ## Contributing
 
-I haven't found any cases where it doesn't format code as I would expect, so I there aren't any known bugs to fix. But this WAS built in an afternoon so it has big issues regarding tidyness of the code.
+Contributions are very much welcome, and I would appreciate them a lot.
 
-Something else that I would change is that group sizes are hard-coded in the implementation, when it would make more sense if they were command line parameters instead.
-
-Regarding overall structure, this just loops through a string in a rather careless way, which makes extending it rather difficult. It also reads entire files in a single go disregarding the posibility of very large files (which wasn't in my original use case, but it would be nice if we dealt with that properly).
-
-If it wasn't clear from me listing issues in a section called 'Contributing', contributions are very much welcome, and I would appreciate them a lot.
+You can look at the issues on github.
